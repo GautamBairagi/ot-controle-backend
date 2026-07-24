@@ -60,3 +60,6 @@ export const getMe = async (req, res) => {
     // Middleware should attach user to req
     res.json(req.user);
 };
+
+
+
